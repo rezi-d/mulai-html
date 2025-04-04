@@ -1,3 +1,44 @@
-<html>
-<tittle>Mulai</tittle>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombol Twitter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .twitter-button {
+            display: flex;
+            align-items: center;
+            background-color: #1DA1F2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.3s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .twitter-button:hover {
+            background-color: #0d8de0;
+        }
+        .twitter-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://twitter.com" class="twitter-button" target="_blank">
+        <img class="twitter-icon" src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter">
+        Follow
+    </a>
+</body>
 </html>
